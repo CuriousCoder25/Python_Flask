@@ -1,5 +1,6 @@
 #5/18 lab
 # Recursion is excluded from syllabus and exam
+
 num1 = int(input("Enter a number"))
 num2 = int(input("Enter a number"))
 
@@ -41,3 +42,7 @@ else:
 #         print("\nProduct: ",num1*num2)
 #     case 4:
 #         print("\n Quiotent: ",num1/num2)
+
+
+
+# https://www.freecodecamp.org/news/python-switch-statement-switch-case-example/
