@@ -1,4 +1,7 @@
-
-for num in range(2:200):
-
+for num in range(2, 201):
+    if num % 2 == 0:
+        print(num, end=" ")
+    while num<201:
+        if num % 2 == 0:
+            print(num, end=" ")
 
