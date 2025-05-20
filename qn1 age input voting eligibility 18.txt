@@ -1,0 +1,4 @@
+day 4 5/20
+qn1> age input voting eligibility 18
+qn2> marks and grade
+qn3> Program to print even number from 2 to 200

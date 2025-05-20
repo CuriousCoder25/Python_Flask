@@ -1,4 +1,4 @@
-#5/18 lab
+#5/18 lab day 3
 # Recursion is excluded from syllabus and exam
 
 num1 = int(input("Enter a number"))

@@ -22,5 +22,11 @@ summer_fruitsl = ["Pineapple", "Papaya", "Muskmelon", "Jamun", "Plum"]
 
 print(summer_fruitsl)
 print(len(summer_fruitsl))
-print(summer_fruitsl[3])
+print(summer_fruitsl[3],"\n")
 
+for n in summer_fruitsl:
+    i=0
+    print(summer_fruitsl[i])
+    i=i+1
+
+    #slicing - range
