@@ -1,4 +1,7 @@
 day 4 5/20
+
 qn1> age input voting eligibility 18
-qn2> marks and grade
+qn2> marks and grade PU
 qn3> Program to print even number from 2 to 200
+qn4> Write a function to take two number as input and return their sum, difference, product and quiotent
+qn5> recursion
