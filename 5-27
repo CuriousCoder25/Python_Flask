@@ -1,0 +1,7 @@
+WAP to read and write csv file using csv module.
+
+WAP python class called student with name roll no and marks in different subject. Create a method to display student details and calculate the 
+average marks
+
+Wap create a base class veichle with attributes like make and model. Derive a class car from veichle with addditional attribue with milage and capacity. 
+Create object of child class and display their details
