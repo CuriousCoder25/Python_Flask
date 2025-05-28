@@ -1,4 +1,4 @@
-#wrong xa 
+#wrong xa 5/27
 class veichle:
     def __init__ (self,make,model):
         self.make=make
