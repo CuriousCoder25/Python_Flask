@@ -1,0 +1,14 @@
+2/14
+
+lab report of new style
+
+outcome: virtualenvironment
+package install flask
+
+flask helloworld.py
+routing
+rendering template
+form creation
+form data capture and returning result
+
+login and signup page 
