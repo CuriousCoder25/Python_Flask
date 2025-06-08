@@ -19,6 +19,14 @@ def about(name="page"):             #if parameter is not sent then page will be 
 
 # @app.route('/login')
 # def login():
-    
+@app.route("/calculate", methods=["GET","POST"])
+def caclulate():
+    if request.method=='POST':
+        first=int(request.form.get("txt_first"))
+        second =int(request.form.get("txt_second"))
+        return render_template("calculator.html",sum=first+second)
+
+    return render_template("calculator.html")
+
 if __name__=='__main__':
     app.run(debug=True)
