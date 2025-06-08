@@ -28,5 +28,14 @@ def caclulate():
 
     return render_template("calculator.html")
 
+@app.route("/contact", methods=["GET","POST"])
+def contact():
+    if request.method=='POST':
+        user_name = request.form.get("name")
+        user_email = request.form.get("email")
+        return render_template("result.html", name=user_name, email=user_email)
+    
+    return render_template("contact.html")
+
 if __name__=='__main__':
     app.run(debug=True)
