@@ -35,7 +35,7 @@ def contact():
         user_email = request.form.get("email")
         return render_template("result.html", name=user_name, email=user_email)
     
-    return render_template("contact.html")
+    return render_template("contact.html") #this line process the GET method when user first enters /contact
 
 if __name__=='__main__':
     app.run(debug=True)
